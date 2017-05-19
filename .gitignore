@@ -18,3 +18,5 @@
 *.pid
 *.tmp
 *.sourcemap
+
+config.ini
