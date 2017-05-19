@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="312" prefWidth="568" styleClass="">
+  <children>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="416" layoutY="273" prefHeight="32" prefWidth="144" style="-fx-font-size: 12px;" styleClass="button " text="Добавить" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/rounded-add-button.png" id="data-button" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="56" layoutY="8" prefHeight="38" prefWidth="504" styleClass="label " text="Создать новую конфигурацию" textAlignment="LEFT" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="26"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <ListViewEx editable="false" fixedCellSize="-1" focusTraversable="true" id="listView" layoutX="8" layoutY="72" prefHeight="192" prefWidth="552" style="-fx-border-width: 2px 2px 2px 2px;&#10;-fx-border-color: #bfbfbf;" styleClass="list-view ">
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList"/>
+      </items>
+    </ListViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-listView" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="8" layoutY="48" prefHeight="20" prefWidth="256" styleClass="label " text="Список команд" textAlignment="LEFT" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="14"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="8" layoutY="273" prefHeight="32" prefWidth="144" style="-fx-font-size: 12px;" styleClass="button " text="Удалить" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/round-remove-button.png" id="data-buttonAlt" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="176" layoutY="273" prefHeight="32" prefWidth="104" style="-fx-font-size: 12px;" styleClass="button " text="Загрузить .ini" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button4" layoutX="288" layoutY="273" prefHeight="32" prefWidth="104" style="-fx-font-size: 12px;" styleClass="button " text="Сохранить .ini" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="32" clickColor="#000000" color="#cccccc" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#d8d8d8" id="button5" layoutX="8" layoutY="8" prefHeight="40" prefWidth="40" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/go-back-left-arrow.png" id="data-button5" visible="1"/>
+  </children>
+</AnchorPane>

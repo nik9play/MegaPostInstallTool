@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360" prefWidth="568" styleClass="">
+  <children>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="0" layoutY="0" prefHeight="120" prefWidth="568" styleClass="label " text="MegaPostInstall Tool" textAlignment="LEFT" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI Bold" size="34"/>
+      </font>
+    </LabelEx>
+    <FlatButton alignment="CENTER" clickColor="#990000" color="#1a1a1a" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#b31a1a" id="button8" layoutX="536" layoutY="0" prefHeight="32" prefWidth="32" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Arial" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/close-button.png" id="data-button8" tooltipText="Закрыть" visible="1"/>
+    <FlatButton alignment="CENTER" clickColor="#808080" color="#1a1a1a" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#999999" id="button9" layoutX="504" layoutY="0" prefHeight="32" prefWidth="32" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/downwards-arrow-key.png" id="data-button9" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonBack" layoutX="120" layoutY="137" prefHeight="64" prefWidth="328" styleClass="button " text="Создать новую конфигурацию" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonBack" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button5" layoutX="120" layoutY="265" prefHeight="64" prefWidth="328" styleClass="button " text="Запустить конфигурацию" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="false" focusTraversable="true" id="edit" layoutX="120" layoutY="224" prefColumnCount="12" prefHeight="33" prefWidth="296" promptText="" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="416" layoutY="224" prefHeight="32" prefWidth="32" style="-fx-font-size: 12px;" styleClass="button " text="..." textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="568" layoutY="32" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="328" prefWidth="568" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <TableView editable="false" fixedCellSize="-1" focusTraversable="true" id="table" layoutX="8" layoutY="48" prefHeight="232" prefWidth="552" styleClass="table-view " tableMenuButtonVisible="false">
+          <placeholder>
+            <Label/>
+          </placeholder>
+          <columns>
+            <TableColumn id="type" maxWidth="5000" minWidth="10" prefWidth="168" resizable="false" sortable="false" style="-fx-alignment: center-left; " text="Тип" visible="true"/>
+            <TableColumn id="com" maxWidth="5000" minWidth="10" prefWidth="371" resizable="false" sortable="false" style="-fx-alignment: center-left; " text="Команда" visible="true"/>
+          </columns>
+        </TableView>
+        <Data cursor="DEFAULT" enabled="1" id="data-table" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button4" layoutX="8" layoutY="289" prefHeight="32" prefWidth="144" style="-fx-font-size: 12px;" styleClass="button " text="Удалить" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/round-remove-button.png" id="data-button4" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="416" layoutY="289" prefHeight="32" prefWidth="144" style="-fx-font-size: 12px;" styleClass="button " text="Добавить" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/rounded-add-button.png" id="data-button3" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button11" layoutX="376" layoutY="289" prefHeight="32" prefWidth="32" style="-fx-font-size: 12px;" styleClass="button " text="" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/create-new-pencil-button.png" id="data-button11" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="176" layoutY="289" prefHeight="32" prefWidth="176" style="-fx-font-size: 12px;" styleClass="button " text="Загрузить .ini" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button7" layoutX="8" layoutY="9" prefHeight="32" prefWidth="32" styleClass="button " text="" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/go-back-left-arrow.png" id="data-button7" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="48" layoutY="8" prefHeight="32" prefWidth="456" styleClass="label " text="Создание новой конфигурации" textAlignment="LEFT" textFill="#333333" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="19"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+  </children>
+</AnchorPane>

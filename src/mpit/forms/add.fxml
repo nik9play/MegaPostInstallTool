@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="216" prefWidth="352" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="32" id="rect" layoutX="8" layoutY="136" stroke="#b3b3b3" strokeType="INSIDE" strokeWidth="2" styleClass="" width="104"/>
+    <FlatButton alignment="CENTER" clickColor="#990000" color="#1a1a1a" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#b31a1a" id="button8" layoutX="320" layoutY="0" prefHeight="32" prefWidth="32" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Arial" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/close-button.png" id="data-button8" tooltipText="Закрыть" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="0" prefHeight="32" prefWidth="312" styleClass="label " text="Добавление нового действия" textAlignment="LEFT" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <RadioGroupPane alignment="TOP_LEFT" focusTraversable="false" id="radioGroup" layoutX="9" layoutY="41" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" orientation="VERTICAL" prefHeight="61" prefWidth="336" selectedIndex="0" spacing="5" styleClass="" textColor="#000000">
+      <children/>
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Запуск программы (произвольная команда)"/>
+          <String fx:value="Запуск .bat скрипта"/>
+          <String fx:value="Установка драйвера"/>
+        </FXCollections>
+      </items>
+    </RadioGroupPane>
+    <Data cursor="DEFAULT" enabled="1" id="data-radioGroup" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="200" layoutY="177" prefHeight="32" prefWidth="144" style="-fx-font-size: 12px;" styleClass="button " text="Добавить" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="8" layoutY="177" prefHeight="32" prefWidth="144" style="-fx-font-size: 12px;" styleClass="button " text="Отмена" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" graphic="" id="data-buttonAlt" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="editAlt" layoutX="104" layoutY="136" prefColumnCount="12" prefHeight="32" prefWidth="240" promptText="" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-editAlt" visible="1"/>
+    <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="8" layoutY="136" prefHeight="31" prefWidth="88" styleClass="label " text="cmd" textAlignment="LEFT" textFill="#333333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+  </children>
+</AnchorPane>

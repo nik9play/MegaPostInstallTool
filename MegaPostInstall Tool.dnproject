@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project author="nik9" authorOS="Windows 7" createdAt="1494942162874" ideName="DevelNext" ideVersion="16.5.2" ideVersionHash="2017042312" name="MegaPostInstall Tool" packageName="mpit" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1495217137661">
+  <tree>
+    <expanded>
+    <path src=""/>
+      <path src="/src"/>
+      <path src="/src/.data"/>
+      <path src="/src/.data/img"/>
+      <path src="/src/.theme"/>
+      <path src="/src/mpit"/>
+      <path src="/src/mpit/forms"/>
+      <path src="/src/mpit/modules"/>
+    </expanded>
+  </tree>
+  <openedFiles>
+  <file src="MegaPostInstall Tool.dnproject"/>
+    <file src="src/mpit/modules/MainModule.php"/>
+    <file selected="1" src="src/mpit/forms/MainForm.php"/>
+    <file src="src/mpit/forms/add.php"/>
+    <file src="src/mpit/forms/edit.php"/>
+    <file src="src/mpit/forms/create.php"/>
+    <file src="src/mpit/forms/loading.php"/>
+    <file src="src/mpit/modules/AppModule.php"/>
+    <file src="src/.theme/style.fx.css"/>
+  </openedFiles>
+  <files/>
+  <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
+    <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
+  </behaviours>
+</project>

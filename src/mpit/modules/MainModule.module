@@ -1,0 +1,27 @@
+{
+  "props": [],
+  "components": {
+    "ini": {
+      "type": "script\\storage\\IniStorage",
+      "x": 32,
+      "y": 96,
+      "props": {
+        "path": "config.ini",
+        "autoSave": false,
+        "multiLineValues": "1"
+      }
+    },
+    "fileChooser": {
+      "type": "script\\FileChooserScript",
+      "x": 32,
+      "y": 16,
+      "props": {
+        "filterName": "Файлы конфигурации",
+        "filterExtensions": "*.ini",
+        "filterAny": "0",
+        "inputNode": "edit",
+        "actionNode": "buttonAlt"
+      }
+    }
+  }
+}
